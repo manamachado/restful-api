@@ -8,7 +8,7 @@ const transformer = product => ({
     price: product.price
   },
   links: {
-    self: `api/v1/products/${product.id}`
+    self: `/api/v1/products/${product.id}`
   }
 });
 
